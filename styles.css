@@ -13,6 +13,11 @@
     font-family: Arial, sans-serif;
   }
   
+  .logo {
+  height: 40px;
+  cursor: pointer;
+}
+
   header {
     border-bottom: 1px solid #ccc;
     background-color: white;
@@ -86,7 +91,7 @@
   }
 
   .banner {
-    background-image: url('images/banner-background.png'); 
+    background-image: url('img/banner-background.png'); 
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -354,7 +359,7 @@
 
 
  .disney-offer {
-    background-image: url('images/more-background.jpeg'); 
+    background-image: url('img/more-background.png'); 
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
