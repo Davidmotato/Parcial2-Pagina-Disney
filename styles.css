@@ -13,7 +13,6 @@
     font-family: Arial, sans-serif;
   }
   
-  /*---Stylos del header----*/
   header {
     border-bottom: 1px solid #ccc;
     background-color: white;
@@ -86,7 +85,6 @@
     cursor: pointer;
   }
 
-   /*---Stylos del Banner----*/
   .banner {
     background-image: url('images/banner-background.png'); 
     background-size:cover;
@@ -146,4 +144,308 @@
     background-color: transparent;
     border: 2px solid white;
     color: white;
+  }
+
+
+
+  section[aria-label="Featured Snow White Content"] {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #5c50a3; 
+    flex-wrap: wrap;
+  }
+  
+  article {
+    background-color: #f9d65d; 
+    border-radius: 2px;
+    overflow: hidden;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  figcaption {
+    padding: 1rem;
+  }
+  
+  figcaption h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #000; 
+  }
+  
+  figcaption p {
+    font-size: 1rem;
+    color: #333; 
+    margin-bottom: 1rem;
+  }
+  
+  figcaption a {
+    font-weight: bold;
+    color: #000; 
+    text-decoration: none;
+  }
+  
+  figcaption a:hover {
+    text-decoration: underline;
+  }
+ 
+
+.disney-container {
+    background-color: #003B4F;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.disney-container h2 {
+    margin-bottom: 30px;
+}
+
+.disney-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    height: 200;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 1rem;
+  padding: 2rem;
+  background-color: transparent; 
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.item {
+  background-color: transparent;
+  border-radius: 2px;
+  overflow: hidden;
+  width: 300px; 
+  margin: 10px; 
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px; 
+}
+
+.item h2 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #000;
+}
+
+.item p {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.vacation-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.vacation-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.vacation-offers {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.vacation-offer {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 40%;
+}
+
+.vacation-offer img {
+  width: 100%;
+  height: auto; 
+}
+
+.offer-details {
+  padding: 15px;
+}
+
+.offer-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.offer-details p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.learn-more {
+  display: inline-block;
+  padding: 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+
+ .disney-offer {
+    background-image: url('images/more-background.jpeg'); 
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+  
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding: 2rem;
+    color: #1a1a1a;
+  }
+  
+  .offer-content {
+    max-width: 500px;
+    text-align: center;
+    color: #000;
+  }
+  
+  .offer-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .offer-box {
+    margin-bottom: 1.5rem;
+  }
+  
+  .offer-box h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #8c46f9;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    
+  }
+  
+  .disclaimer {
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    color: #333;
+  }
+
+
+  footer {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    color: #333;
+  }
+  
+  .footer-logo img {
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-nav ul,
+  .footer-subnav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer-nav a,
+  .footer-subnav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-nav a:hover,
+  .footer-subnav a:hover {
+    color: #0077cc;
+  }
+  
+  footer p {
+    margin-top: 1rem;
+    color: #666;
   }
